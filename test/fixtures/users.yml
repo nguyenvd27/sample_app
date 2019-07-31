@@ -1,1 +1,4 @@
-# empty
+nguyenvd:
+  name: Vu Duc Nguyen
+  email: nguyenvd@gmail.com
+  password_digest: <%= User.digest('password') %>
